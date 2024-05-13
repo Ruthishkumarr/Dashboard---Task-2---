@@ -117,8 +117,12 @@ body {
 }
 
 .link {
-  padding-left: 20px;
+  padding-left: 25px;
   font-weight: lighter;
+}
+
+.fa-arrow-right{
+    padding-left: 25px;
 }
 
 .fa-regular {
@@ -228,10 +232,10 @@ body {
 }
 
 #dropdown {
-  padding: 3px;
+  padding: 2px 10px;
   border-radius: 2em;
-  border: 2px none #46444411;
-  background-color: #ffffff;
+  border: 2px solid #46444411;
+  background-color: #ffffff28;
 }
 
 .card1_sub_div2{
@@ -297,6 +301,8 @@ font-weight: 300;
 }
 .amount{
     font-size: 1.2em;
+    font-weight: 600;
+    color: black;
 }
 
 .edit{
@@ -306,10 +312,58 @@ font-weight: 300;
     margin-right: 4px;
 }
 
-/* Card 2 */
+/* Card 2 Upper*/
+.card2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card2_upper{
+    height: 45%;
+    width: 95%;
+    border-radius: 20px 20px 20px 20px;
+  background-color: #ffffff;
+  padding: 0.5em;
+}
+
+.card2_upper_sub1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.arrow2{
+    height: 2.8em;
+
+}
+
+#dropdown2{
+    padding: 0px 18px;
+  border-radius: 2em;
+  border: 2px solid #46444411;
+  background-color: #ffffff28;
+}
+
+.total{
+    margin-top: 5px;
+}
+
+/* Card 2 lower */
+.lower_row1{
+    display: flex;
+    justify-content: space-between ;
+    padding: 0.2em;
+}
+.card2_lower{
+    color: #9d9d9d ;
+    font-size: 0.9em;
+    margin: 0em 1em 0em 0.3em;
+}
 
 
 
+/* Rounds */
 .system_lock,
 .growrate {
   height: 7em;
