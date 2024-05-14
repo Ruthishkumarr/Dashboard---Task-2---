@@ -12,7 +12,7 @@ body {
   background-color: #e1e1e1;
 }
 .container {
-  margin: 0.5% 16%;
+  margin: 2% 16%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -75,8 +75,8 @@ body {
   width: 60px;
 }
 .search_here {
-  font-size: 20px;
-  line-height: 300%;
+  font-size: 15px;
+  line-height: 390%;
 }
 /* Row 2 */
 .row2 {
@@ -98,7 +98,7 @@ body {
   border: 2px solid #e9e9e9;
   border-radius: 100px;
   font-size: x-large;
-  padding: 10px 18px 10px 18px;
+  padding: 15px 23px;
 }
 .month {
   font-size: 1em;
@@ -134,7 +134,7 @@ body {
 /* row 2 right side */
 .row2_col2 {
   display: flex;
-  gap: 9em;
+  gap: 5em;
 }
 .hey {
   padding: 1em;
@@ -308,7 +308,7 @@ font-weight: 300;
 .edit{
     color: orangered;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     margin-right: 4px;
 }
 
@@ -521,7 +521,7 @@ padding: 0.8em;
 }
 
 .amounts{
-    padding: 0.5em  0.5em  0em  0em ;
+    padding: 0.5em  1em  0em  0em ;
 
 }
 
@@ -531,12 +531,70 @@ padding: 0.8em;
 
 }
 
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flow{
+  margin: 0.1em 0.5em 0em 2em; 
+
+}
+
+.stocks{
+  font-size: 1em; 
+  font-weight: 600;
+}
+
+.Num{
+  color: orangered;
+  padding: 0.3em 1em;
+  border: 1px solid black;
+  border-radius: 2em ;
+  border: 2px solid #46444411;
+  margin: 1em 0.8em;
+  text-decoration: none;
+  font-weight: 500;
+
+}
+
 /* box 4 */
 .col_2_row3 {
   height: 33%;
   width: 97%;
   background-color: #f8f8f8;
-  
   border-radius: 2em;
 }
 
+.dot{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6em 1em;
+}
+
+.dotted{
+  height: 1em;
+  padding-top: 0.2em;
+}
+
+.fa-xmark{
+  border: 2px solid #46444411;
+   border-radius: 2em;
+   padding: 5px 9px;
+   font-size: 1em;
+   background-color: #f8f8f8;
+}
+
+.dot2{
+  padding: 0.3em 1.5em 0em 1.5em;
+}
+
+.how{
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+.symbol{
+  height: 4em;
+  padding: 0em 0em 1em 2.3em;
+}
