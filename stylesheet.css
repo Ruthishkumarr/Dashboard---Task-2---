@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -229,6 +229,11 @@ body {
   font-size: medium;
   font-weight: 900;
   padding-left: 8px;
+}
+
+.visa2{
+  font-family: "Merienda", cursive;
+
 }
 
 #dropdown {
